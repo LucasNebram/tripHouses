@@ -24,7 +24,7 @@ export default function Navigation() {
         })}
       >
         <Tab.Screen
-          name="house"
+          name="houseStack"
           component={HousesStack}
           options={{ title: "Casas" }}
         />
@@ -56,7 +56,7 @@ export default function Navigation() {
 function screenOptions(route, color, size) {
   let iconName;
 
-  if (route.name === "house") {
+  if (route.name === "houseStack") {
     iconName = "compass-outline";
   }
 

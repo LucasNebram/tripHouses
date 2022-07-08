@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#033c2f"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,15 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF",
-        "package": "com.lucasnebram.triphouses",
-        "versionCode": 1
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.lucasnebram.tripHouses",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAt3KAbmIuOkld2FTkwtR-iCwM4VpK5XZw"
+        }
       }
-     
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -39,7 +43,7 @@
           "photosPermission": "The app accesses your photos to let you share them with your friends."
         }
       ]
-    ]
-
+    ],
+    "description": "Aplicación de reserva y búsqueda de casa rurales. \nHecho en base a videotutoriales y personalizado."
   }
 }
